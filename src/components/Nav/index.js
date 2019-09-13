@@ -6,7 +6,7 @@ function Nav() {
   return (
     <S.Wrapper>
       <img src={logo} alt="Alrion Tech" />
-      <button>teste</button>
+      <button>teste 2</button>
     </S.Wrapper>
   )
 }
