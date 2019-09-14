@@ -1,12 +1,17 @@
 import React from "react"
+
+import MenuIcon from "../MenuIcon"
+
 import logo from "../../images/logo.svg"
 import * as S from "./styled"
 
 function Nav() {
   return (
     <S.Wrapper>
-      <img src={logo} alt="Alrion Tech" />
-      <button>teste 2</button>
+      <S.NavLogo>
+        <img src={logo} alt="Alrion Tech" />
+      </S.NavLogo>
+      <MenuIcon />
     </S.Wrapper>
   )
 }
