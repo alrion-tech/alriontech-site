@@ -6,6 +6,17 @@ const plugins = [
       name: `images`,
       path: `${__dirname}/src/images`,
     },
+  },{
+    resolve: `gatsby-plugin-prefetch-google-fonts`,
+    options: {
+      fonts: [
+        {
+          family: `Roboto`,
+          subsets: [`latin`],
+          variants: [`400`, `700`]
+        }
+      ]
+    }
   },
   `gatsby-transformer-sharp`,
   `gatsby-plugin-sharp`,
