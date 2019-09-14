@@ -10,8 +10,8 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
 `
-export const NavLogo = styled(Link)`
-  & > img {
-    height: 6.25rem;
+export const NavLogo = styled.div`
+  & > div {
+    height: 100px;
   }
 `
