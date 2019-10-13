@@ -1,12 +1,15 @@
 import React from "react"
-import logo from "../../images/logo.svg"
+
+import Logo from "../Logo"
+
 import * as S from "./styled"
 
 function Nav() {
   return (
     <S.Wrapper>
-      <img src={logo} alt="Alrion Tech" />
-      <button>teste</button>
+      <S.NavLogo>
+        <Logo />
+      </S.NavLogo>
     </S.Wrapper>
   )
 }

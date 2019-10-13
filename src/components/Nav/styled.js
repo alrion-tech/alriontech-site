@@ -1,15 +1,16 @@
 import styled from "styled-components"
-import { Link } from "gatsby"
 
-export const Wrapper = styled.nav`
+export const Wrapper = styled.div`
+  position: relative;
   max-width: 102.5rem;
-  padding-top: 3.2rem;
+  padding-top: 1.25em;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 `
-export const NavLogo = styled(Link)`
-  & > img {
-    height: 6.25rem;
+export const NavLogo = styled.div`
+  & > div {
+    height: 100px;
   }
 `

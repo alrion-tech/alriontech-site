@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2638.371" height="1080" viewBox="0 0 2638.371 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.068" y1="-0.4" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#009bdb" stop-opacity="0"/>
+      <stop offset="1" stop-color="#009bdb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1.067" y1="-0.859" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#85def2" stop-opacity="0"/>
+      <stop offset="1" stop-color="#85def2"/>
+    </linearGradient>
+  </defs>
+  <g id="bg-services-crop" transform="translate(359.186 -2160.135)">
+    <ellipse id="Elipse_38" data-name="Elipse 38" cx="403.208" cy="402.898" rx="403.208" ry="402.898" transform="translate(1473.389 3240.135) rotate(-90)" opacity="0.15" fill="url(#linear-gradient)"/>
+    <ellipse id="Elipse_38-2" data-name="Elipse 38" cx="403.208" cy="402.898" rx="403.208" ry="402.898" transform="translate(446.611 2160.135) rotate(90)" opacity="0.15" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
