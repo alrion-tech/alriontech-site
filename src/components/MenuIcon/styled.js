@@ -2,6 +2,10 @@ import styled from "styled-components"
 import { Menu } from "styled-icons/material/Menu"
 
 export const WrapperIcon = styled.div`
+  z-index: 99999;
+  position: fixed;
+  top: calc(126px - 90px);
+  right: 1rem;
   height: 70px;
   width: 70px;
   background-color: var(--primary-color);

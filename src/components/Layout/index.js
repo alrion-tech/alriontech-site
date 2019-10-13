@@ -9,11 +9,14 @@ function Layout({ children }) {
 
   @import url(${style});
   body {
-    font: Roboto 16px / 22px 400;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
     --primary-color: #009BDB;
     --secondary-color: #85DEF2;
     --whatsapp-color: #25D366;
-    --light-darker: #575759;
+    --grey-color: #575759;
     --darker: #002626
     --light: #F2F2F2;
     --bright: #FFFFFF;

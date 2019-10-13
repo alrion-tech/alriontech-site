@@ -3,6 +3,8 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import * as S from "./styled"
 import Nav from "../Nav"
+import MainHeader from "../MainHeader"
+import PresentationSection from "../PresentationSection"
 
 function Header() {
   const { fundo } = useStaticQuery(graphql`
@@ -19,9 +21,13 @@ function Header() {
 
   return (
     <S.Wrapper fluid={fundo.childImageSharp.fluid}>
-      <S.FirstFold>
+      <S.HeaderSection>
         <Nav />
-      </S.FirstFold>
+        <MainHeader />
+      </S.HeaderSection>
+      <S.HeaderSection>
+        <PresentationSection />
+      </S.HeaderSection>
     </S.Wrapper>
   )
 }

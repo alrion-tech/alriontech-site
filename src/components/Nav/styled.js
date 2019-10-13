@@ -1,8 +1,7 @@
 import styled from "styled-components"
-import { Menu } from "styled-icons/material/Menu"
-import { Link } from "gatsby"
 
 export const Wrapper = styled.div`
+  position: relative;
   max-width: 102.5rem;
   padding-top: 1.25em;
   margin: 0 auto;
